@@ -24,5 +24,12 @@
 
 `<script type="module" defer src="script.js"></script>`
 
-- didn't use strict mode module have default
 - ES modules, two types of exports. Named Exports and Default Exports.
+
+```
+import './shoppingCart';
+import { addToCart, totalPrice as price, tq } from './shoppingCart';
+import * as ShoppingCart from './shoppingCart.js';
+```
+
+- didn't use strict mode module have default
