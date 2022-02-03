@@ -13,3 +13,9 @@
 - **Abstract code:** Implement low-level code in modules and import these abstractions into other modules;
 - **Organized code:** Modules naturally lead to a more organized codebase;
 - **Reuse code:** Modules allow us to easily reuse the same code, even across multiple projects.
+
+## Importing Modules before execution
+
+- Modules are imported synchronously
+- Possible thanks to top-level("static") imports, which make imports known before execution
+- This makes bundling and dead code elimination possible
