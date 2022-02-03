@@ -19,3 +19,10 @@
 - Modules are imported synchronously
 - Possible thanks to top-level("static") imports, which make imports known before execution
 - This makes bundling and dead code elimination possible
+
+---
+
+`<script type="module" defer src="script.js"></script>`
+
+- didn't use strict mode module have default
+- ES modules, two types of exports. Named Exports and Default Exports.
