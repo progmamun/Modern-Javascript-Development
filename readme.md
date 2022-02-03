@@ -8,4 +8,4 @@
 
 - Reusable piece of code that **encapsulates** implementation details;
 - Usually a **standalone file,** but it doesn't have to be.
-  **Compose software:** Modules are small building blocks that we put together to build complex applications;
+- **Compose software:** Modules are small building blocks that we put together to build complex applications;
