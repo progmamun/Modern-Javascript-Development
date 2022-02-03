@@ -25,11 +25,20 @@
 `<script type="module" defer src="script.js"></script>`
 
 - ES modules, two types of exports. Named Exports and Default Exports.
+  **Named Exports:**
 
 ```
 import './shoppingCart';
 import { addToCart, totalPrice as price, tq } from './shoppingCart';
 import * as ShoppingCart from './shoppingCart.js';
+```
+
+**Default Export**
+
+```
+export default function (product, quantity) {};
+import add from './shoppingCart';
+add('pizza', 2);
 ```
 
 - didn't use strict mode module have default
