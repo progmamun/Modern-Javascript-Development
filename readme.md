@@ -8,6 +8,24 @@
 sudo npm i parcel
 npm i parcel --save-dev
 npx parcel index.html
+
+npm uninstall parcel
+```
+
+```
+if(module.hot) {
+  module.hot.accept()
+}
+```
+
+### Transpiling
+
+```
+.json  "script": {
+  "start": "parcel index.html",
+  "build": "parcel build index.html"
+}
+cmd=> npm run build
 ```
 
 ## Module
