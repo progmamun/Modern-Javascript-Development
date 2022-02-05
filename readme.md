@@ -4,6 +4,11 @@
 
 ## Build tools `webpack` hard to build or `Parcel `easy to build for production
 
+```
+npm i parcel --save-dev
+
+```
+
 ## Module
 
 - Reusable piece of code that **encapsulates** implementation details;
