@@ -28,6 +28,20 @@ if(module.hot) {
 cmd=> npm run build
 ```
 
+### Polyfilling
+
+```
+npm i core-js
+
+import script.js file| import 'core-js/stable';
+// import 'core-js/stable/array/find';
+// import 'core-js/stable/promise';
+
+cmd$ npm i regenerator-runtime
+// Polifilling async function
+import 'regenerator-runtime/runtime';
+```
+
 ## Module
 
 - Reusable piece of code that **encapsulates** implementation details;
