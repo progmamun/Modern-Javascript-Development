@@ -80,7 +80,8 @@ add('pizza', 2);
 ```
 
 - didn't use strict mode module have default
-  ###One time function | not reuse it
+
+### One time function | not reuse it
 
 ```
 (function() {
