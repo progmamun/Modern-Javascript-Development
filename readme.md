@@ -5,8 +5,9 @@
 ## Build tools `webpack` hard to build or `Parcel `easy to build for production
 
 ```
+sudo npm i parcel
 npm i parcel --save-dev
-
+npx parcel index.html
 ```
 
 ## Module
