@@ -4,6 +4,8 @@
 
 ## Build tools `webpack` hard to build or `Parcel `easy to build for production
 
+# Parcel ![parcel](https://user-images.githubusercontent.com/67066348/152675461-d666dff8-ae4c-4996-8925-56800fa8a46b.png)
+
 ```
 sudo npm i parcel
 npm i parcel --save-dev
@@ -52,8 +54,9 @@ import 'regenerator-runtime/runtime';
 - git: git add -A, git status, git reset --hard HEAD(back to previous git add file)
 - git log(copy-commit id) then, git reset -hard demo83896EXAMPLE733974cde (back to previous commit code)
 - git branch new-feature(new branch create), git checkout new-feature(switch branch), git checkout master(switch branch if merge code from new-feature branch), git merge new-feature , git push origin new-feature (branch push)
-  [git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-  **Netlify:** config your build, build command >`parcel build index.html --dist-dir ./dist` , publish-directory> `dist`
+- [git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+## **Netlify:** config your build, build command >`parcel build index.html --dist-dir ./dist` , publish-directory> `dist`
 
 ## Module
 
