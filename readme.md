@@ -43,6 +43,10 @@ cmd$ npm i regenerator-runtime
 import 'regenerator-runtime/runtime';
 ```
 
+---
+
+### gitignore `.gitignore` `node_modules, dist, .parcel-cache` | .DS_store > for macOS
+
 ## Module
 
 - Reusable piece of code that **encapsulates** implementation details;
