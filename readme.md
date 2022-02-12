@@ -51,7 +51,7 @@ import 'regenerator-runtime/runtime';
 
 - git: git add -A, git status, git reset --hard HEAD(back to previous git add file)
 - git log(copy-commit id) then, git reset -hard demo83896EXAMPLE733974cde (back to previous commit code)
-- git branch new-feature(new branch create), git checkout new-feature(switch branch), git checkout master(switch branch if merge code from new-feature branch), git merge new-feature
+- git branch new-feature(new branch create), git checkout new-feature(switch branch), git checkout master(switch branch if merge code from new-feature branch), git merge new-feature , git push origin new-feature (branch push)
   [git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Module
