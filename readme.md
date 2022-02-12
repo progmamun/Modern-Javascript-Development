@@ -25,7 +25,8 @@ if(module.hot) {
   "start": "parcel index.html",
   "build": "parcel build index.html"
 }
-cmd=> npm run build
+1. `"parcel build index.html --dist-dir ./dist"`
+cmd=> `npm run build`
 ```
 
 ### Polyfilling
