@@ -46,7 +46,7 @@ import 'regenerator-runtime/runtime';
 ```
 
 ---
-
+# git controls
 ### gitignore `.gitignore` `node_modules dist .parcel-cache` | .DS_store > for macOS
 
 **GIT**
@@ -55,6 +55,16 @@ import 'regenerator-runtime/runtime';
 - git log(copy-commit id) then, git reset -hard demo83896EXAMPLE733974cde (back to previous commit code)
 - git branch new-feature(new branch create), git checkout new-feature(switch branch), git checkout master(switch branch if merge code from new-feature branch), git merge new-feature , git push origin new-feature (branch push)
 - [git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+
+### Removing the last commit
+
+- To remove the last commit from git, you can simply run `git reset --hard HEAD^` If you are removing multiple commits from the top, you can run `git reset --hard HEAD~2` to remove the last two commits. You can increase the number to remove even more commits.
+
+- If you want to **"uncommit"** the commits, but keep the changes around for reworking, remove the "--hard": `git reset HEAD^` which will evict the commits from the branch and from the index, but leave the working tree around.
+
+- If you want to save the commits on a new branch name, then run `git branch newbranchname` before doing the git reset.
+
 
 ## **Netlify:** config your build, build command >`parcel build index.html --dist-dir ./dist` , publish-directory> `dist`
 
